@@ -12,7 +12,7 @@
   </docinfo>
 
   <book xml:id="my-great-book">
-    <title>My Great Book</title>
+    <title>My Greatest Book</title>
     <subtitle>An example to get you started</subtitle>
 
     <frontmatter xml:id="frontmatter">
@@ -49,9 +49,29 @@
     <chapter xml:id="chapter-title">
       <title>Chapter title</title>
 
-      <section xml:id="section-title">
-        <title>Section title</title>
-        <p>Hello</p>
+      <section xml:id="section-demo-pretext">
+        <title>Demoing some PreTeXT features</title>
+        <p>Hello <m>x^2 + 2x = 5</m></p>
+
+        <p>
+          And <me>x = \frac{-b\pm\sqrt{b^2 - 4ac}}{2a}.</me>
+        </p>
+
+        <figure width="80%" xml:id="fig-circle">
+          <caption>A Tikz Circle
+          </caption>
+            <image xml:id="tikz-circle">
+              <description>A circle of radius 3</description>
+              
+       
+          <latex-image>
+            \begin{tikzpicture}
+              \draw(0,0) circle(3);
+            \end{tikzpicture}
+          </latex-image>
+
+        </image>
+        </figure>
       </section>
 
     </chapter>
@@ -60,7 +80,7 @@
       <title>Backmatter</title>
 
       <colophon>
-        <p> This book was authored in <pretext />. </p>
+        <p> This book was authored in <pretext />. Wasn't <xref ref="section-demo-pretext"/> amazing? </p>
       </colophon>
 
     </backmatter>
