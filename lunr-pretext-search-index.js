@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Demoing some PreTeXT features",
-  "body": " Demoing some PreTeXT features  Hello  And    A Tikz Circle   A circle of radius 3     "
+  "body": " Demoing some PreTeXT features  Hello  And    A Tikz Circle   A circle of radius 3      "
 },
 {
   "id": "fig-circle",
