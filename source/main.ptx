@@ -72,6 +72,17 @@
 
         </image>
         </figure>
+
+        <sage>
+          <input>
+            2+2
+          </input>
+          <!-- Need output for print versions-->
+          <output>
+            4
+          </output>
+        </sage>
+        
       </section>
 
     </chapter>
